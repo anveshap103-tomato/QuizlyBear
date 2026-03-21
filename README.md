@@ -11,9 +11,7 @@ This project is a dynamic and interactive Quiz Web Application built using **Jav
 * Timer for each question
 * Real-time score tracking
 * Progress bar indicator
-* Leaderboard (stored using localStorage)
 * Smooth UI animations and transitions
-* Replay quiz functionality
 
 
 ## Technologies Used
@@ -53,7 +51,8 @@ This project is a dynamic and interactive Quiz Web Application built using **Jav
 
 * Add sound effects 
 * Add user login system 
-* Improve animations using libraries like GSAP
+* Improve animations
+* Replay quiz functionality
 * Add more quiz categories
 * Add a random fact segment after each question (using random facts api)
 
