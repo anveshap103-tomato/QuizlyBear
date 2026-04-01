@@ -30,6 +30,7 @@ function fetchQ() {
 
 
 let idx = 0;
+let score = 0;
 
 function displayQ(){
   const q = questions[idx]
@@ -61,6 +62,7 @@ function displayQ(){
 function check(button, selected, correct) {
   if (selected === correct) {
     button.style.background = "green";
+    score++
     } else {
     button.style.background = "red";
     }
