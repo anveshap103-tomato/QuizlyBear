@@ -1,0 +1,12 @@
+
+.question{
+    font-size: 20px;
+    font-weight: bold;
+}
+.options{
+    margin-top: 10px;
+}
+.option{
+    display: block;
+    margin-bottom: 5px;
+}
