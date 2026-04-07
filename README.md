@@ -1,62 +1,39 @@
-# QuizlyBear
+# Bear Quiz
 
-This project is a dynamic and interactive Quiz Web Application built using **JavaScript**, **HTML**, and **CSS**. It demonstrates API integration, DOM manipulation, and modern UI design with animations.
-
+A multiple-choice quiz web app built with HTML, CSS, and JavaScript.
 
 ## Features
 
-* Fetches quiz questions from a public API
-* Category and difficulty selection
-* Multiple-choice questions with shuffled options
-* Timer for each question
-* Real-time score tracking
-* Progress bar indicator
-* Smooth UI animations and transitions
+- Category and difficulty selection before starting
+- 10 questions per quiz fetched dynamically
+- One question displayed at a time with 4 shuffled options
+- 15-second countdown timer per question, auto-advances on timeout
+- Progress bar and question counter (e.g. Question 3/10)
+- Answer stored per question, options locked after selection
+- Correct answer highlighted green, wrong answer highlighted red
+- Previous and Next navigation to review answered questions
+- Result screen showing score, each question, selected answer, and correct answer
+- Back to home button on result screen
+- Light and dark mode toggle
+- Bear emoji changes based on question difficulty
 
+## APIs
 
-## Technologies Used
+- https://opentdb.com/api_category.php — fetches all available categories
+- https://opentdb.com/api.php — fetches 10 multiple-choice questions by category and difficulty
 
-* HTML5
-* CSS3 (Animations & Responsive Design)
-* JavaScript
-* Fetch API
+## Technologies
 
+- HTML5
+- CSS3
+- JavaScript
+- Fetch API
 
-## API Used (for quiz questions)
+## Concepts
 
-* The Trivia API
-("https://the-trivia-api.com")
-
-
-## Concepts Implemented
-
-* DOM Manipulation
-* Event Handling
-* Fetch API Integration
-* Array Higher-Order Functions 
-* Basic Animations using CSS & JavaScript
-
-
-## How It Works
-
-1. User selects quiz category and difficulty
-2. Questions are fetched dynamically from the API
-3. Each question is displayed with a timer
-4. User selects an answer
-5. Score is updated in real-time
-6. Final score is displayed with leaderboard
-
-
-## Future Improvements
-
-* Add sound effects 
-* Add user login system 
-* Improve animations
-* Replay quiz functionality
-* Add more quiz categories
-* Add a random fact segment after each question (using random facts api)
-
-
-
-
-
+- DOM manipulation
+- Event handling
+- Fetch API and JSON parsing
+- Array methods
+- CSS variables for theming
+- CSS animations and transitions
