@@ -213,6 +213,7 @@ function showResult() {
   });
 
   resultEle.innerHTML = `
+    <button class="btn-back" id="backBtn">&#8592;</button>
     <div class="result-hero">${hero}</div>
     <h2>${pct >= 70 ? "Great job!" : "Keep practising!"}</h2>
     <div class="score-badge">${score}<span> / ${questions.length}</span></div>
@@ -221,6 +222,14 @@ function showResult() {
   `;
 
   document.getElementById("retryBtn").addEventListener("click", () => {
+    resultEle.style.display = "none";
+    resultEle.innerHTML     = "";
+    start.style.display     = "block";
+    questions = []; userAnswers = []; idx = 0; score = 0;
+  });
+
+  document.getElementById("backBtn").addEventListener("click", () => {
+    clearInterval(timerInterval);
     resultEle.style.display = "none";
     resultEle.innerHTML     = "";
     start.style.display     = "block";
