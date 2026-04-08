@@ -60,10 +60,7 @@ body {
 #navbar .nav-title {
   font-size: 22px;
   font-weight: 800;
-  background: linear-gradient(90deg, var(--primary), var(--blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary);
   letter-spacing: -0.5px;
 }
 
@@ -118,10 +115,7 @@ body {
   font-size: 28px;
   font-weight: 800;
   margin-bottom: 8px;
-  background: linear-gradient(90deg, var(--primary), var(--pink));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary);
 }
 
 #start p { color: var(--text-muted); margin-bottom: 24px; font-size: 15px; }
@@ -376,10 +370,7 @@ select:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3p
   font-size: 26px;
   font-weight: 800;
   margin-bottom: 6px;
-  background: linear-gradient(90deg, var(--primary), var(--pink));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary);
 }
 
 .score-badge {
