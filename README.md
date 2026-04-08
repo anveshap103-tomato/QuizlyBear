@@ -1,4 +1,4 @@
-# Bear Quiz
+# QuizzlyBearr
 
 A multiple-choice quiz web app built with HTML, CSS, and JavaScript.
 
